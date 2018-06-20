@@ -1,0 +1,9 @@
+
+// Json criar
+{
+ "nome":"Odin",
+  "email":"odinzao@gmail.com",
+  "usuario":"odizao",
+  "senha":"123valhalla",
+  "telefone":"12341234"
+}

@@ -1,0 +1,32 @@
+usuario
+{
+    listar_todos             /api/usuarios
+    listar_um                /api/usuario/{id}
+    adicionar                /api/usuario/adicionar
+    atualizar                /api/usuario/atualizar/{id}
+    deletar                  /api/usuario/deletar/{id}
+}
+categoria
+{
+    listar_todos             /api/categorias
+    listar_todos_usuario     /api/usuario/{id}/categorias
+    adicionar                /api/categoria/adicionar
+    atualizar                /api/categoria/atualizar/{id}
+    deletar                  /api/categoria/deletar/{id}
+}
+atividade
+{
+    listar_todos             /api/atividades
+    listar_todos_usuario     /api/usuario/{id}/atividades
+    adicionar                /api/atividade/adicionar
+    Atualizar                /api/atividade/atualizar/{id}
+    deletar                  /api/atividade/deletar/{id}
+}
+evento
+{
+    listar_todos             /api/eventos
+    listar_todos_usuario     /api/usuario/{id}/eventos
+    adicionar                /api/evento/adicionar
+    atualizar                /api/evento/atualizar{id}
+    deletar                  /api/evento/deletar/{id}
+}
